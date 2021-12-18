@@ -5,7 +5,7 @@
 #header{
     background-image: url(../images/background/h_img.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 /* end of head section*/
@@ -14,11 +14,13 @@
 #sevices{
     background-image: url(../images/background/s_image.jpg);
     background-repeat: no-repeat;
-    background-size: auto;  
+    background-size: cover;  
+    padding-top: 160px;
+    padding-bottom: 160px;
 }
 /* contact us */
 #contactus{
     background-image: url(../images/background/c_image.jpg);
     background-repeat: no-repeat;
-    background-size: auto;  
+    background-size: cover;  
 }
