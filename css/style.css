@@ -1,0 +1,18 @@
+
+
+/* header Section */
+
+#header{
+    background-image: url(../images/background/h_img.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* end of head section*/
+
+/* services section */
+#sevices{
+    background-image: url(../images/background/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;  
+}
