@@ -30,4 +30,57 @@ $(document).ready(() => {
             $('#part3').addClass('d-none');
         }
     });
+
+
+
+    $("#form").on('submit',(e)=>{
+        e.preventDefault();
+
+        var name = $('#name').val();
+        var email = $('#email').val();
+        var message = $('#textarea').val();
+        
+        if(validate(name,email,message)){
+
+        }
+
+    });
+
+
+    function validate(name,email,message){
+        var bool =  true ;
+        if((name == "")){
+            $('#nameerro').removeClass('d-none');
+            $('#namemess').text("Please enter Name");
+            bool = false;
+        }
+        else{
+            $('#namesuccess').removeClass('d-none');
+            $('#namemess').text("Success");
+        }
+        if(email == ""){
+            $('#emailmess').text("Please enter email");
+            $('#emailerror').removeClass('d-none');
+            bool = false;
+        }else{
+            $('#emailmess').text("Success");
+            $('#emailsuccess').removeClass('d-none');
+        }
+        if(message == ""){
+            $('#messageerror').removeClass('d-none');
+            $('#messerr').text("Please enter Message");
+            bool = false;
+            
+        }else{
+            $('#messagesuccess').removeClass('d-none');
+            $('#messerr').text("Success");
+        }
+
+          
+        
+
+        return bool;
+    }
+
+
 });
