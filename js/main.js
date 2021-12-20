@@ -33,9 +33,9 @@ $(document).ready(() => {
 
 
 
-    $("#form").on('submit',(e)=>{
+    $("#mc-embedded-subscribe-form").on('submit',(e)=>{
+       
         e.preventDefault();
-
         var name = $('#name').val();
         var email = $('#email').val();
         var message = $('#textarea').val();
@@ -43,7 +43,6 @@ $(document).ready(() => {
         if(validate(name,email,message)){
             alert("Thank you  " + name +"  we have received your message. Thank you for reaching out to us.")
         }
-
     });
 
 
