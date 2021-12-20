@@ -161,16 +161,19 @@
     </div>
     <div class="container p-5" id="contactus">
         <h1 class="text-center">Contact us</h1>
-        <form class="text-center mb-5" id="form">
+        <form    action="https://moringaschool.us20.list-manage.com/subscribe/post?u=c9704e91a578df066688b96e3&amp;id=72abeddabd"
+        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+        novalidate
+        class="text-center mb-5" id="form">
             <div class="row">
                 <div class="form-group col-md-6">
-                    <input type="text" placeholder="Name.." id="name" class="border-white form-control ">
+                    <input type="text" placeholder="Name.." name="FNAME" id="name" class="border-white form-control ">
                     <i class="fa fa-check-circle text-success d-none  " id="namesuccess" aria-hidden="true"></i>
                     <i class="fa fa-exclamation-circle text-danger d-none " id="nameerro" aria-hidden="true"></i>
                     <small id="namemess"></small>
                 </div>
                 <div class="form-group col-md-6">
-                    <input type="email" placeholder="Email.." id="email" class="border-white form-control ">
+                    <input type="email" placeholder="Email.." name="EMAIL" id="email" class="border-white form-control ">
                     <i class="fa fa-check-circle text-success d-none  success" id="emailsuccess" aria-hidden="true"></i>
                     <i class="fa fa-exclamation-circle text-danger d-none error" id="emailerror" aria-hidden="true"></i>
                     <small id="emailmess"></small>
@@ -178,7 +181,7 @@
 
             </div>
             <div class="form-group mt-5">
-                <textarea placeholder="Your message here ..." rows="6"
+                <textarea placeholder="Your message here ..."  name="LNAME" rows="6"
                     class="w-100 form-control bg-transparent w-75 border-white" id="textarea" rows="3"></textarea>
                     <i class="fa fa-check-circle text-success d-none  success" id="messagesuccess" aria-hidden="true"></i>
                     <i class="fa fa-exclamation-circle text-danger d-none error" id="messageerror" aria-hidden="true"></i>
@@ -188,6 +191,10 @@
                 <button type="btn btn-default btn-block submit p-10 " class="btn btn-lg btn-success">
                     Signup
                 </button>
+            </div>
+            <div id="mce-responses" class="clear foot">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
             </div>
         </form>
     </div>

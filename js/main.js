@@ -41,7 +41,7 @@ $(document).ready(() => {
         var message = $('#textarea').val();
         
         if(validate(name,email,message)){
-
+            alert("Thank you  " + name +"  we have received your message. Thank you for reaching out to us.")
         }
 
     });
